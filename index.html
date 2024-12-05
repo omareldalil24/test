@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="spotify.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Spotify Playlist</h1>
+        <div class="songItemContainer"></div>
+        <div class="player">
+            <div id="masterSongName">Select a song</div>
+            <audio id="audioElement" src=""></audio>
+            <div>
+                <i id="masterPlay" class="fa fa-play-circle"></i>
+                <img id="gif" src="playing.gif" alt="Playing" style="opacity: 0;">
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
